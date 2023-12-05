@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  list-style-type: none;
+  font-family: 'JetBrains Mono', sans-serif;
+}
+#root{
+  width: 100%;
+  min-height: 100vh;
+  padding: 0px 20px;
+  padding-top: 100px;
+}
+@media (max-height:530px) {
+  #root{
+    padding-top: 20px;
+  }
+}
